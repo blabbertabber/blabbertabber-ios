@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA8F07DC1D0E4295005B9BD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8F07DB1D0E4295005B9BD4 /* AppDelegate.swift */; };
+		BA8F07DE1D0E4295005B9BD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8F07DD1D0E4295005B9BD4 /* ViewController.swift */; };
+		BA8F07E11D0E4295005B9BD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA8F07DF1D0E4295005B9BD4 /* Main.storyboard */; };
+		BA8F07E31D0E4295005B9BD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA8F07E21D0E4295005B9BD4 /* Assets.xcassets */; };
+		BA8F07E61D0E4295005B9BD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA8F07E41D0E4295005B9BD4 /* LaunchScreen.storyboard */; };
+		BA8F07F11D0E4295005B9BD4 /* BlabberTabberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8F07F01D0E4295005B9BD4 /* BlabberTabberTests.swift */; };
+		BA8F07FC1D0E4295005B9BD4 /* BlabberTabberUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8F07FB1D0E4295005B9BD4 /* BlabberTabberUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA8F07ED1D0E4295005B9BD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA8F07D01D0E4295005B9BD4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA8F07D71D0E4295005B9BD4;
+			remoteInfo = BlabberTabber;
+		};
+		BA8F07F81D0E4295005B9BD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA8F07D01D0E4295005B9BD4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA8F07D71D0E4295005B9BD4;
+			remoteInfo = BlabberTabber;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA8F07D81D0E4295005B9BD4 /* BlabberTabber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlabberTabber.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA8F07DB1D0E4295005B9BD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA8F07DD1D0E4295005B9BD4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BA8F07E01D0E4295005B9BD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA8F07E21D0E4295005B9BD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA8F07E51D0E4295005B9BD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA8F07E71D0E4295005B9BD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA8F07EC1D0E4295005B9BD4 /* BlabberTabberTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlabberTabberTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA8F07F01D0E4295005B9BD4 /* BlabberTabberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlabberTabberTests.swift; sourceTree = "<group>"; };
+		BA8F07F21D0E4295005B9BD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA8F07F71D0E4295005B9BD4 /* BlabberTabberUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlabberTabberUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA8F07FB1D0E4295005B9BD4 /* BlabberTabberUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlabberTabberUITests.swift; sourceTree = "<group>"; };
+		BA8F07FD1D0E4295005B9BD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA8F07D51D0E4295005B9BD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA8F07E91D0E4295005B9BD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA8F07F41D0E4295005B9BD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA8F07CF1D0E4295005B9BD4 = {
+			isa = PBXGroup;
+			children = (
+				BA8F07DA1D0E4295005B9BD4 /* BlabberTabber */,
+				BA8F07EF1D0E4295005B9BD4 /* BlabberTabberTests */,
+				BA8F07FA1D0E4295005B9BD4 /* BlabberTabberUITests */,
+				BA8F07D91D0E4295005B9BD4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA8F07D91D0E4295005B9BD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA8F07D81D0E4295005B9BD4 /* BlabberTabber.app */,
+				BA8F07EC1D0E4295005B9BD4 /* BlabberTabberTests.xctest */,
+				BA8F07F71D0E4295005B9BD4 /* BlabberTabberUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA8F07DA1D0E4295005B9BD4 /* BlabberTabber */ = {
+			isa = PBXGroup;
+			children = (
+				BA8F07DB1D0E4295005B9BD4 /* AppDelegate.swift */,
+				BA8F07DD1D0E4295005B9BD4 /* ViewController.swift */,
+				BA8F07DF1D0E4295005B9BD4 /* Main.storyboard */,
+				BA8F07E21D0E4295005B9BD4 /* Assets.xcassets */,
+				BA8F07E41D0E4295005B9BD4 /* LaunchScreen.storyboard */,
+				BA8F07E71D0E4295005B9BD4 /* Info.plist */,
+			);
+			path = BlabberTabber;
+			sourceTree = "<group>";
+		};
+		BA8F07EF1D0E4295005B9BD4 /* BlabberTabberTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA8F07F01D0E4295005B9BD4 /* BlabberTabberTests.swift */,
+				BA8F07F21D0E4295005B9BD4 /* Info.plist */,
+			);
+			path = BlabberTabberTests;
+			sourceTree = "<group>";
+		};
+		BA8F07FA1D0E4295005B9BD4 /* BlabberTabberUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA8F07FB1D0E4295005B9BD4 /* BlabberTabberUITests.swift */,
+				BA8F07FD1D0E4295005B9BD4 /* Info.plist */,
+			);
+			path = BlabberTabberUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA8F07D71D0E4295005B9BD4 /* BlabberTabber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA8F08001D0E4295005B9BD4 /* Build configuration list for PBXNativeTarget "BlabberTabber" */;
+			buildPhases = (
+				BA8F07D41D0E4295005B9BD4 /* Sources */,
+				BA8F07D51D0E4295005B9BD4 /* Frameworks */,
+				BA8F07D61D0E4295005B9BD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlabberTabber;
+			productName = BlabberTabber;
+			productReference = BA8F07D81D0E4295005B9BD4 /* BlabberTabber.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA8F07EB1D0E4295005B9BD4 /* BlabberTabberTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA8F08031D0E4295005B9BD4 /* Build configuration list for PBXNativeTarget "BlabberTabberTests" */;
+			buildPhases = (
+				BA8F07E81D0E4295005B9BD4 /* Sources */,
+				BA8F07E91D0E4295005B9BD4 /* Frameworks */,
+				BA8F07EA1D0E4295005B9BD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA8F07EE1D0E4295005B9BD4 /* PBXTargetDependency */,
+			);
+			name = BlabberTabberTests;
+			productName = BlabberTabberTests;
+			productReference = BA8F07EC1D0E4295005B9BD4 /* BlabberTabberTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA8F07F61D0E4295005B9BD4 /* BlabberTabberUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA8F08061D0E4295005B9BD4 /* Build configuration list for PBXNativeTarget "BlabberTabberUITests" */;
+			buildPhases = (
+				BA8F07F31D0E4295005B9BD4 /* Sources */,
+				BA8F07F41D0E4295005B9BD4 /* Frameworks */,
+				BA8F07F51D0E4295005B9BD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA8F07F91D0E4295005B9BD4 /* PBXTargetDependency */,
+			);
+			name = BlabberTabberUITests;
+			productName = BlabberTabberUITests;
+			productReference = BA8F07F71D0E4295005B9BD4 /* BlabberTabberUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA8F07D01D0E4295005B9BD4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = BlabberTabber;
+				TargetAttributes = {
+					BA8F07D71D0E4295005B9BD4 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					BA8F07EB1D0E4295005B9BD4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BA8F07D71D0E4295005B9BD4;
+					};
+					BA8F07F61D0E4295005B9BD4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BA8F07D71D0E4295005B9BD4;
+					};
+				};
+			};
+			buildConfigurationList = BA8F07D31D0E4295005B9BD4 /* Build configuration list for PBXProject "BlabberTabber" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA8F07CF1D0E4295005B9BD4;
+			productRefGroup = BA8F07D91D0E4295005B9BD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA8F07D71D0E4295005B9BD4 /* BlabberTabber */,
+				BA8F07EB1D0E4295005B9BD4 /* BlabberTabberTests */,
+				BA8F07F61D0E4295005B9BD4 /* BlabberTabberUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA8F07D61D0E4295005B9BD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA8F07E61D0E4295005B9BD4 /* LaunchScreen.storyboard in Resources */,
+				BA8F07E31D0E4295005B9BD4 /* Assets.xcassets in Resources */,
+				BA8F07E11D0E4295005B9BD4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA8F07EA1D0E4295005B9BD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA8F07F51D0E4295005B9BD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA8F07D41D0E4295005B9BD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA8F07DE1D0E4295005B9BD4 /* ViewController.swift in Sources */,
+				BA8F07DC1D0E4295005B9BD4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA8F07E81D0E4295005B9BD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA8F07F11D0E4295005B9BD4 /* BlabberTabberTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA8F07F31D0E4295005B9BD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA8F07FC1D0E4295005B9BD4 /* BlabberTabberUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA8F07EE1D0E4295005B9BD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA8F07D71D0E4295005B9BD4 /* BlabberTabber */;
+			targetProxy = BA8F07ED1D0E4295005B9BD4 /* PBXContainerItemProxy */;
+		};
+		BA8F07F91D0E4295005B9BD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA8F07D71D0E4295005B9BD4 /* BlabberTabber */;
+			targetProxy = BA8F07F81D0E4295005B9BD4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA8F07DF1D0E4295005B9BD4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA8F07E01D0E4295005B9BD4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA8F07E41D0E4295005B9BD4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA8F07E51D0E4295005B9BD4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA8F07FE1D0E4295005B9BD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA8F07FF1D0E4295005B9BD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA8F08011D0E4295005B9BD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BlabberTabber/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blabbertabber.BlabberTabber;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BA8F08021D0E4295005B9BD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BlabberTabber/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blabbertabber.BlabberTabber;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BA8F08041D0E4295005B9BD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BlabberTabberTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blabbertabber.BlabberTabberTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlabberTabber.app/BlabberTabber";
+			};
+			name = Debug;
+		};
+		BA8F08051D0E4295005B9BD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BlabberTabberTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blabbertabber.BlabberTabberTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlabberTabber.app/BlabberTabber";
+			};
+			name = Release;
+		};
+		BA8F08071D0E4295005B9BD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BlabberTabberUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blabbertabber.BlabberTabberUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BlabberTabber;
+			};
+			name = Debug;
+		};
+		BA8F08081D0E4295005B9BD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BlabberTabberUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blabbertabber.BlabberTabberUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BlabberTabber;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA8F07D31D0E4295005B9BD4 /* Build configuration list for PBXProject "BlabberTabber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA8F07FE1D0E4295005B9BD4 /* Debug */,
+				BA8F07FF1D0E4295005B9BD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA8F08001D0E4295005B9BD4 /* Build configuration list for PBXNativeTarget "BlabberTabber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA8F08011D0E4295005B9BD4 /* Debug */,
+				BA8F08021D0E4295005B9BD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BA8F08031D0E4295005B9BD4 /* Build configuration list for PBXNativeTarget "BlabberTabberTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA8F08041D0E4295005B9BD4 /* Debug */,
+				BA8F08051D0E4295005B9BD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BA8F08061D0E4295005B9BD4 /* Build configuration list for PBXNativeTarget "BlabberTabberUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA8F08071D0E4295005B9BD4 /* Debug */,
+				BA8F08081D0E4295005B9BD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA8F07D01D0E4295005B9BD4 /* Project object */;
+}
